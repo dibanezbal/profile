@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap');
+
+body {
+  background-color: #ECECEC;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+/* BOX HEADER */
+
+.card-white {
+  padding: 40px;
+  text-align: center;
+  margin: 20px 0;
+  border-radius: 3px;
+  box-shadow: 0px 1px 15px rgba(20, 40, 80, 0.2);
+  background-color: #FFF;
+}
+
+h1 {
+  color: #27496d;
+  font-weight: 400;
+}
+
+h2 {
+  color: #27496d;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+img {
+  width: 100px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+p {
+  margin-bottom: 30px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.btn {
+  color: #FFF;
+  background: rgb(93,131,172);
+  background: radial-gradient(circle, rgba(93,131,172,1) 0%, rgba(39,73,109,1) 100%);
+  padding: 15px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 700;
+}
+
+.btn:hover {
+  background: rgba(93,131,172,0.8);
+}
+
+/* == FOLLOW ME == */
+
+.list-inline {
+  list-style: none;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+ul {
+  padding: 0;
+}
+
+.fab {
+  color: #dae1e7;
+  font-size: 40px;
+  transition: 0.7s;
+}
+
+.fab:hover {
+  color: #27496d;;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+
+  .btn {
+    color: #FFF;
+    background: rgb(93,131,172);
+    background: radial-gradient(circle, rgba(93,131,172,1) 0%, rgba(39,73,109,1) 100%);
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 15px;
+  }
+
+  p {
+  margin-bottom: 20px;
+  font-weight: 300;
+  line-height: 20px;
+  }
+
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+
+  p {
+  margin-bottom: 20px;
+  font-size: 15px;
+  line-height: 20px;
+  }
+}
